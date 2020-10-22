@@ -1,0 +1,6 @@
+#!/bin/bash
+for ((a=4043 ; a<=4094 ; a++ )) 
+do 
+echo -n "create vlan_translation ports  cvid 4090 add svid $a
+" 
+done

@@ -1,0 +1,1859 @@
+VID             : 1               VLAN Name     : default
+VLAN Type       : Static          Advertisement : Enabled
+Member Ports    :
+Static Ports    :
+Current Tagged Ports  :
+Current Untagged Ports:
+Static Tagged Ports   :
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 11              VLAN Name     : 11
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 1-27
+Static Ports    : 1-27
+Current Tagged Ports  : 1-27
+Current Untagged Ports:
+Static Tagged Ports   : 1-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 50              VLAN Name     : office
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,21,23-27
+Static Ports    : 19,21,23-27
+Current Tagged Ports  : 19,21,23-27
+Current Untagged Ports:
+Static Tagged Ports   : 19,21,23-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 51              VLAN Name     : reutov-pstn
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 52              VLAN Name     : sip-customers
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 1-27
+Static Ports    : 1-27
+Current Tagged Ports  : 1-27
+Current Untagged Ports:
+Static Tagged Ports   : 1-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 57              VLAN Name     : terminal
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,23-27
+Static Ports    : 19,23-27
+Current Tagged Ports  : 19,23-27
+Current Untagged Ports:
+Static Tagged Ports   : 19,23-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 61              VLAN Name     : mcast
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 1-27
+Static Ports    : 1-27
+Current Tagged Ports  : 1-27
+Current Untagged Ports:
+Static Tagged Ports   : 1-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 100             VLAN Name     : vlan100
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 101             VLAN Name     : vlan101
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 102             VLAN Name     : vlan102
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 103             VLAN Name     : vlan103
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 104             VLAN Name     : vlan104
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 105             VLAN Name     : vlan105
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 106             VLAN Name     : vlan106
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 107             VLAN Name     : vlan107
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 108             VLAN Name     : vlan108
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 109             VLAN Name     : vlan109
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 110             VLAN Name     : vlan110
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 111             VLAN Name     : vlan111
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 112             VLAN Name     : vlan112
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 113             VLAN Name     : vlan113
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 114             VLAN Name     : vlan114
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 115             VLAN Name     : vlan115
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 116             VLAN Name     : vlan116
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 117             VLAN Name     : vlan117
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 118             VLAN Name     : vlan118
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 119             VLAN Name     : vlan119
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 121             VLAN Name     : vlan121
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 122             VLAN Name     : vlan122
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 123             VLAN Name     : vlan123
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 124             VLAN Name     : vlan124
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 125             VLAN Name     : vlan125
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 126             VLAN Name     : vlan126
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 127             VLAN Name     : vlan127
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 128             VLAN Name     : vlan128
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 129             VLAN Name     : vlan129
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 130             VLAN Name     : vlan130
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 131             VLAN Name     : vlan131
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 132             VLAN Name     : vlan132
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 133             VLAN Name     : vlan133
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 134             VLAN Name     : vlan134
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 135             VLAN Name     : vlan135
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 136             VLAN Name     : vlan136
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 137             VLAN Name     : vlan137
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 138             VLAN Name     : vlan138
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 139             VLAN Name     : vlan139
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 140             VLAN Name     : vlan140
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 141             VLAN Name     : vlan141
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 142             VLAN Name     : vlan142
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 143             VLAN Name     : vlan143
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 144             VLAN Name     : vlan144
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 145             VLAN Name     : vlan145
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 146             VLAN Name     : vlan146
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 147             VLAN Name     : vlan147
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 148             VLAN Name     : vlan148
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 149             VLAN Name     : vlan149
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 150             VLAN Name     : vlan150
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 151             VLAN Name     : vlan151
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 152             VLAN Name     : vlan152
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 153             VLAN Name     : vlan153
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 154             VLAN Name     : vlan154
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 155             VLAN Name     : vlan155
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 156             VLAN Name     : vlan156
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 157             VLAN Name     : vlan157
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 158             VLAN Name     : vlan158
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 159             VLAN Name     : vlan159
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 160             VLAN Name     : vlan160
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 161             VLAN Name     : vlan161
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 162             VLAN Name     : vlan162
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 163             VLAN Name     : vlan163
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 164             VLAN Name     : vlan164
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 165             VLAN Name     : vlan165
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 166             VLAN Name     : vlan166
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 167             VLAN Name     : vlan167
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 168             VLAN Name     : vlan168
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 169             VLAN Name     : vlan169
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 170             VLAN Name     : vlan170
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 171             VLAN Name     : vlan171
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 172             VLAN Name     : vlan172
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 173             VLAN Name     : vlan173
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 174             VLAN Name     : vlan174
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 175             VLAN Name     : vlan175
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 176             VLAN Name     : vlan176
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 177             VLAN Name     : vlan177
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 178             VLAN Name     : vlan178
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 179             VLAN Name     : vlan179
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 180             VLAN Name     : vlan180
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 181             VLAN Name     : vlan181
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 182             VLAN Name     : vlan182
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 183             VLAN Name     : vlan183
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 184             VLAN Name     : vlan184
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 185             VLAN Name     : vlan185
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 186             VLAN Name     : vlan186
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 187             VLAN Name     : vlan187
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 188             VLAN Name     : vlan188
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 189             VLAN Name     : vlan189
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 190             VLAN Name     : vlan190
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 191             VLAN Name     : vlan191
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 192             VLAN Name     : vlan192
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 193             VLAN Name     : vlan193
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 194             VLAN Name     : vlan194
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 195             VLAN Name     : vlan195
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 196             VLAN Name     : vlan196
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 197             VLAN Name     : vlan197
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 198             VLAN Name     : vlan198
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 199             VLAN Name     : vlan199
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 200             VLAN Name     : vlan200
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 201             VLAN Name     : vlan201
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 202             VLAN Name     : vlan202
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 203             VLAN Name     : vlan203
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 204             VLAN Name     : vlan204
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 205             VLAN Name     : vlan205
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 206             VLAN Name     : vlan206
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 207             VLAN Name     : vlan207
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 208             VLAN Name     : vlan208
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 209             VLAN Name     : vlan209
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 210             VLAN Name     : vlan210
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 211             VLAN Name     : vlan211
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 212             VLAN Name     : vlan212
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 213             VLAN Name     : vlan213
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 214             VLAN Name     : vlan214
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 215             VLAN Name     : vlan215
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 216             VLAN Name     : vlan216
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 217             VLAN Name     : vlan217
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 218             VLAN Name     : vlan218
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 219             VLAN Name     : vlan219
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 220             VLAN Name     : vlan220
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 221             VLAN Name     : vlan221
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 222             VLAN Name     : vlan222
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 223             VLAN Name     : vlan223
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 224             VLAN Name     : vlan224
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 225             VLAN Name     : vlan225
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 226             VLAN Name     : vlan226
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 227             VLAN Name     : vlan227
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 228             VLAN Name     : vlan228
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 229             VLAN Name     : vlan229
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 230             VLAN Name     : vlan230
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 231             VLAN Name     : vlan231
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 232             VLAN Name     : vlan232
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 233             VLAN Name     : vlan233
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 234             VLAN Name     : vlan234
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 235             VLAN Name     : vlan235
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 236             VLAN Name     : vlan236
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 237             VLAN Name     : vlan237
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 238             VLAN Name     : vlan238
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 239             VLAN Name     : vlan239
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 240             VLAN Name     : vlan240
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 241             VLAN Name     : vlan241
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 242             VLAN Name     : vlan242
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 243             VLAN Name     : vlan243
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 244             VLAN Name     : vlan244
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 245             VLAN Name     : vlan245
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 246             VLAN Name     : vlan246
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 247             VLAN Name     : vlan247
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 248             VLAN Name     : vlan248
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 249             VLAN Name     : vlan249
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 252             VLAN Name     : pto
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 1-27
+Static Ports    : 1-27
+Current Tagged Ports  : 1-27
+Current Untagged Ports:
+Static Tagged Ports   : 1-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 270             VLAN Name     : sud
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22,24-27
+Static Ports    : 19,22,24-27
+Current Tagged Ports  : 19,22,24-27
+Current Untagged Ports:
+Static Tagged Ports   : 19,22,24-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 296             VLAN Name     : podem
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 1-27
+Static Ports    : 1-27
+Current Tagged Ports  : 1-27
+Current Untagged Ports:
+Static Tagged Ports   : 1-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 300             VLAN Name     : 11361/CNL-LAN_NET
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 1-26
+Static Ports    : 1-26
+Current Tagged Ports  : 1-26
+Current Untagged Ports:
+Static Tagged Ports   : 1-26
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 308             VLAN Name     : 14228/CNL-REU
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 16,19,24-27
+Static Ports    : 16,19,24-27
+Current Tagged Ports  : 16,19,24-27
+Current Untagged Ports:
+Static Tagged Ports   : 16,19,24-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 309             VLAN Name     : vlan309
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 14,19,22-24
+Static Ports    : 14,19,22-24
+Current Tagged Ports  : 14,19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 14,19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 310             VLAN Name     : vlan310
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22-24
+Static Ports    : 19,22-24
+Current Tagged Ports  : 19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 312             VLAN Name     : 312
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 1-27
+Static Ports    : 1-27
+Current Tagged Ports  : 1-27
+Current Untagged Ports:
+Static Tagged Ports   : 1-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 321             VLAN Name     : ndv-6783/CNL-REU
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22,24
+Static Ports    : 19,22,24
+Current Tagged Ports  : 19,22,24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22,24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 326             VLAN Name     : 14283/CNL-REU
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,21,23-27
+Static Ports    : 19,21,23-27
+Current Tagged Ports  : 19,21,23-27
+Current Untagged Ports:
+Static Tagged Ports   : 19,21,23-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 329             VLAN Name     : mira46
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 1-27
+Static Ports    : 1-27
+Current Tagged Ports  : 1-27
+Current Untagged Ports:
+Static Tagged Ports   : 1-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 331             VLAN Name     : 331
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 14,19,24-27
+Static Ports    : 14,19,24-27
+Current Tagged Ports  : 14,19,24-27
+Current Untagged Ports:
+Static Tagged Ports   : 14,19,24-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 334             VLAN Name     : 14649/CNL-REU
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 16,19,24
+Static Ports    : 16,19,24
+Current Tagged Ports  : 16,19,24
+Current Untagged Ports:
+Static Tagged Ports   : 16,19,24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 347             VLAN Name     : 11361/CNL-GBMOY
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 11,19,21-24
+Static Ports    : 11,19,21-24
+Current Tagged Ports  : 11,19,21-24
+Current Untagged Ports:
+Static Tagged Ports   : 11,19,21-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 348             VLAN Name     : 15067/CNL-REU
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 14,19,24
+Static Ports    : 14,19,24
+Current Tagged Ports  : 14,19,24
+Current Untagged Ports:
+Static Tagged Ports   : 14,19,24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 349             VLAN Name     : 349
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,21,24-27
+Static Ports    : 19,21,24-27
+Current Tagged Ports  : 19,21,24-27
+Current Untagged Ports:
+Static Tagged Ports   : 19,21,24-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 425             VLAN Name     : 17287/CNL
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,22,24
+Static Ports    : 19,22,24
+Current Tagged Ports  : 19,22,24
+Current Untagged Ports:
+Static Tagged Ports   : 19,22,24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 549             VLAN Name     : segment-144,145
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 1-4,19,24-27
+Static Ports    : 1-4,19,24-27
+Current Tagged Ports  : 19,24-27
+Current Untagged Ports: 1-4
+Static Tagged Ports   : 19,24-27
+Static Untagged Ports : 1-4
+Forbidden Ports       :
+
+VID             : 550             VLAN Name     : segment-146,147
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 9-16,19,24-27
+Static Ports    : 9-16,19,24-27
+Current Tagged Ports  : 19,24-27
+Current Untagged Ports: 9-16
+Static Tagged Ports   : 19,24-27
+Static Untagged Ports : 9-16
+Forbidden Ports       :
+
+VID             : 551             VLAN Name     : segment-148,149
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 17-19,22-27
+Static Ports    : 17-19,22-27
+Current Tagged Ports  : 19,24-27
+Current Untagged Ports: 17-18,22-23
+Static Tagged Ports   : 19,24-27
+Static Untagged Ports : 17-18,22-23
+Forbidden Ports       :
+
+VID             : 555             VLAN Name     : segment-218,219
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,24-27
+Static Ports    : 19,24-27
+Current Tagged Ports  : 19,24-27
+Current Untagged Ports:
+Static Tagged Ports   : 19,24-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 556             VLAN Name     : segment-220,221
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 5-8,19,21,24-27
+Static Ports    : 5-8,19,21,24-27
+Current Tagged Ports  : 19,24-27
+Current Untagged Ports: 5-8,21
+Static Tagged Ports   : 19,24-27
+Static Untagged Ports : 5-8,21
+Forbidden Ports       :
+
+VID             : 608             VLAN Name     : 11361/CNL-GBMOY_voip
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 11,19,22-24
+Static Ports    : 11,19,22-24
+Current Tagged Ports  : 11,19,22-24
+Current Untagged Ports:
+Static Tagged Ports   : 11,19,22-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 862             VLAN Name     : test-js
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 19,23-24
+Static Ports    : 19,23-24
+Current Tagged Ports  : 19,23-24
+Current Untagged Ports:
+Static Tagged Ports   : 19,23-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 899             VLAN Name     : pto2
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 1-27
+Static Ports    : 1-27
+Current Tagged Ports  : 1-27
+Current Untagged Ports:
+Static Tagged Ports   : 1-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 999             VLAN Name     : homelan-customers-blocked
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 1-27
+Static Ports    : 1-27
+Current Tagged Ports  : 1-27
+Current Untagged Ports:
+Static Tagged Ports   : 1-27
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 1000            VLAN Name     : managment
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 1-24
+Static Ports    : 1-24
+Current Tagged Ports  : 1-24
+Current Untagged Ports:
+Static Tagged Ports   : 1-24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 1101            VLAN Name     : cams-1
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 14,19,24
+Static Ports    : 14,19,24
+Current Tagged Ports  : 14,19,24
+Current Untagged Ports:
+Static Tagged Ports   : 14,19,24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 1110            VLAN Name     : 1110
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 7,19,24
+Static Ports    : 7,19,24
+Current Tagged Ports  : 7,19,24
+Current Untagged Ports:
+Static Tagged Ports   : 7,19,24
+Static Untagged Ports :
+Forbidden Ports       :
+
+VID             : 1500            VLAN Name     : PTO-Yub2a-Chelomeya8
+VLAN Type       : Static          Advertisement : Disabled
+Member Ports    : 13,19,24-27
+Static Ports    : 13,19,24-27
+Current Tagged Ports  : 13,19,24-27
+Current Untagged Ports:
+Static Tagged Ports   : 13,19,24-27
+Static Untagged Ports :
+Forbidden Ports       :

@@ -1,0 +1,9 @@
+#!/bin/bash
+for ((a=4043 ; a<=4094 ; a++ )) 
+do 
+echo -n "
+create vlan "p2p-nauka-rescon-v619"
+configure vlan "p2p-nauka-rescon-v619" tag 619
+configure vlan "p2p-nauka-rescon-v619" add ports 47-48 tagged
+" 
+done

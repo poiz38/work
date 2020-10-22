@@ -1,0 +1,13 @@
+#!/bin/bash
+for ((a=2201 ; a<=2600 ; a++)) 
+do 
+echo -n "create vman \"IPOE$a\"
+configure vman IPOE$a tag $a
+configure vman IPOE$a add ports 2 tagged
+"
+
+#echo -n "interface bundle-ether 1.4094$a l2transport
+#encapsulation dot1q 4094 second-dot1q $a
+#rewrite ingress tag pop 2 symmetric 
+ 
+done

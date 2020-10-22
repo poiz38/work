@@ -1,0 +1,547 @@
+sr4.msk6#                 show proc cpu so | ex  0.00
+CPU utilization for five seconds: 99%/61%; one minute: 92%; five minutes: 90%
+ PID Runtime(ms)   Invoked      uSecs   5Sec   1Min   5Min TTY Process
+ 450   4190163922881599824          0 22.00% 14.17% 13.10%   0 IP Input
+
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  30820800 00960400 03400100 40080000 00060412 26000004 00000000 0340B7B7
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 77, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 76, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  98820800 00960400 03400100 40080000 00060412 26000004 00000000 0340EFBD
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 71, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 70, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  C8820800 00960400 03400100 40080000 00060412 26000004 00000000 0340DFB8
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 69, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 68, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  18820800 00960400 03400100 40080000 00060412 26000004 00000000 03406FB7
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 69, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 68, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  A0820800 00960400 03400100 40080000 00060412 26000004 00000000 034047BD
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 69, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 68, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  00820800 00960400 03400100 40080000 00060412 26000004 00000000 034027B7
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 79, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 78, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  58820800 00960400 03400100 40080000 00060412 26000004 00000000 03402FB2
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 69, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 68, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  A0820800 00960400 03400100 40080000 00060412 26000004 00000000 034047BD
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 75, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 74, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  F8820800 00960400 03400100 40080000 00060412 26000004 00000000 03404FB8
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 71, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 70, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  50820800 00960400 03400100 40080000 00060412 26000004 00000000 034017B2
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 63, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 62, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  A0820800 00960400 03400100 40080000 00060412 26000004 00000000 034047BD
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 75, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 74, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  F0820800 00960400 03400100 40080000 00060412 26000004 00000000 034077B8
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 73, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 72, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  88820800 00960400 03400100 40080000 00060412 26000004 00000000 03409FBD
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 73, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 72, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  B0820800 00960400 03400100 40080000 00060412 26000004 00000000 034037BD
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 67, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 66, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  90820800 00960400 03400100 40080000 00060412 26000004 00000000 0340D7BD
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 77, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 76, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  58820800 00960400 03400100 40080000 00060412 26000004 00000000 03402FB2
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 81, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 80, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  F0820800 00960400 03400100 40080000 00060412 26000004 00000000 034077B8
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 77, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 76, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  80820800 00960400 03400100 40080000 00060412 26000004 00000000 0340A7BD
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 69, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 68, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  B8820800 00960400 03400100 40080000 00060412 26000004 00000000 03400FBD
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 83, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of outgoing inband packet -------
+l2idb NULL, l3idb Vl150, routine etsec_tx_pak, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x380(896), len 0x46(70)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x0(0), CoS 0
+  cap1 0, cap2 0
+  00020000 0096A800 03800000 46000000 00000000 00000000 00000000 00000000
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, shim ethertype CCF0
+earl 8 shim header IS present:
+  version 0, control 0(0x0), lif 16391(0x4007), mark_enable 0,
+  feature_index 0, group_id 0(0x0), acos 0(0x0),
+  ttl 15, dti 0, dti_value 540822(0x84096)
+  000800E0 0003C008 4096
+ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+  df 1, mf 0, fo 0, ttl 82, src 195.93.238.115, dst 95.163.120.190
+    tcp src 50177, dst 20163, seq 385756052, ack 866592692, win 0 off 5 checksum 0x74EB ack rst
+
+------- dump of incoming inband packet -------
+l2idb Po1, l3idb Vl150, routine inband_process_rx_packet, timestamp 14:32:15.763
+dbus info: src_vlan 0x96(150), src_indx 0x340(832), len 0x40(64)
+  bpdu 0, index_dir 0, flood 0, dont_lrn 0, dest_indx 0x340(832), CoS 0
+  cap1 1, cap2 0
+  88820800 00960400 03400100 40080000 00060412 26000004 00000000 03409FBD
+destmac 00.1E.67.22.9C.98, srcmac 68.EF.BD.EB.86.C0, ethertype 0800
+protocol ip: version 0x04, hlen 0x05, tos 0x00, totlen 40, identifier 32504
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+for ((a=1860 ; a<=1874 ; a++ )) 
+do 
+echo -n "vlan $a
+name p2p-rescon-$a
+" 
+done

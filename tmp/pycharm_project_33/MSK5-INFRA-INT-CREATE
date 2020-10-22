@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+
+
+set interfaces irb unit 228 description "INFRA MSK5 SERVERFARM-INT1"
+set interfaces irb unit 228 bandwidth 1g
+set interfaces irb unit 228 family inet no-redirects
+set interfaces irb unit 228 family inet address 10.33.137.2/24 vrrp-group 1 virtual-address 10.33.137.1
+set interfaces irb unit 228 family inet address 10.33.137.2/24 vrrp-group 1 priority 254
+set interfaces irb unit 228 family inet address 10.33.137.2/24 vrrp-group 1 advertise-interval 3
+set interfaces irb unit 228 family inet address 10.33.137.2/24 vrrp-group 1 no-preempt
+set interfaces irb unit 228 family inet address 10.33.137.2/24 vrrp-group 1 authentication-type simple
+set interfaces irb unit 228 family inet address 10.33.137.2/24 vrrp-group 1 authentication-key nagatinskaya
+
+set bridge-domains 228-MSK5-SERVERFARM-INT1 description "INFRA MSK5 SERVERFARM-INT1"
+set bridge-domains 228-MSK5-SERVERFARM-INT1 vlan-id 228
+set bridge-domains 228-MSK5-SERVERFARM-INT1 interface ae11.228
+set bridge-domains 228-MSK5-SERVERFARM-INT1 routing-interface irb.228
+
+set interfaces ae11 unit 228 encapsulation vlan-bridge
+set interfaces ae11 unit 228 vlan-id 228
+
+set routing-instances LOCAL interface irb.228
+
+set routing-instances LOCAL forwarding-options dhcp-relay group CLIENT interface irb.228
+
+
+
+set interfaces irb unit 228 description "INFRA MSK5 SERVERFARM-INT1"
+set interfaces irb unit 228 bandwidth 1g
+set interfaces irb unit 228 family inet no-redirects
+set interfaces irb unit 228 family inet address 10.33.137.3/24 vrrp-group 1 virtual-address 10.33.137.1
+set interfaces irb unit 228 family inet address 10.33.137.3/24 vrrp-group 1 advertise-interval 3
+set interfaces irb unit 228 family inet address 10.33.137.3/24 vrrp-group 1 no-preempt
+set interfaces irb unit 228 family inet address 10.33.137.3/24 vrrp-group 1 authentication-type simple
+set interfaces irb unit 228 family inet address 10.33.137.3/24 vrrp-group 1 authentication-key nagatinskaya
+
+set bridge-domains 228-MSK5-SERVERFARM-INT1 description "INFRA DC MSK5 HWMGMT"
+set bridge-domains 228-MSK5-SERVERFARM-INT1 vlan-id 228
+set bridge-domains 228-MSK5-SERVERFARM-INT1 interface ae11.228
+set bridge-domains 228-MSK5-SERVERFARM-INT1 routing-interface irb.228
+
+set interfaces ae11 unit 228 encapsulation vlan-bridge
+set interfaces ae11 unit 228 vlan-id 228
+
+set routing-instances LOCAL interface irb.228
+
+set routing-instances LOCAL forwarding-options dhcp-relay group CLIENT interface irb.228
+
+
+
+set interfaces ae0 unit 228 vlan-id 228
+
+set interfaces ae1 unit 228 vlan-id 228
+
+set protocols vstp vlan 228 bridge-priority 56k
+
+set vlans vlan-228 vlan-id 228
+set vlans vlan-228 description "INFRA MSK5 SERVERFARM-INT1"
+set vlans vlan-228 interface ae0.228
+set vlans vlan-228 interface ae1.228

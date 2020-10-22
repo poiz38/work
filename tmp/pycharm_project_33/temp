@@ -1,0 +1,97 @@
+configure vlan Vlan20 ipaddress 10.250.145.254 255.255.255.0
+enable ipforwarding vlan Vlan20
+configure vlan Vlan67 ipaddress 10.250.184.254 255.255.255.0
+enable ipforwarding vlan Vlan67
+
+
+int vlan20
+shut
+int vlan67
+shut
+
+---
+
+int vlan94
+shut
+int vlan74
+shut
+int vlan41 
+shut
+int vlan44
+shut
+int vlan47
+shut
+
+configure vlan Vlan94 ipaddress 10.250.209.254 255.255.255.0
+enable ipforwarding vlan Vlan94
+configure vlan Vlan74 ipaddress 10.250.191.254 255.255.255.0
+enable ipforwarding vlan Vlan74
+configure vlan Vlan41 ipaddress 10.250.166.254 255.255.255.0
+enable ipforwarding vlan Vlan41
+configure vlan Vlan44 ipaddress 10.250.169.254 255.255.255.0
+enable ipforwarding vlan Vlan44
+configure vlan Vlan47 ipaddress 10.250.172.254 255.255.255.0
+enable ipforwarding vlan Vlan47
+
+-----
+int vlan105
+shut
+int vlan40
+shut
+int vlan137
+shut
+int vlan86
+shut
+int vlan32
+shut
+int vlan126
+shut
+int vlan37
+shut
+int vlan35
+shut
+int vlan36
+shut
+
+configure vlan Vlan105 ipaddress 10.250.220.254 255.255.255.0
+enable ipforwarding vlan Vlan105
+configure vlan Vlan40 ipaddress 10.250.165.254 255.255.255.0
+enable ipforwarding vlan Vlan40
+configure vlan Vlan137 ipaddress 10.250.247.254 255.255.255.0
+enable ipforwarding vlan Vlan137
+configure vlan Vlan86 ipaddress 10.250.201.254 255.255.255.0
+enable ipforwarding vlan Vlan86
+configure vlan Vlan32 ipaddress 10.250.157.254 255.255.255.0
+enable ipforwarding vlan Vlan32
+configure vlan Vlan126 ipaddress 10.250.237.254 255.255.255.0
+enable ipforwarding vlan Vlan126
+configure vlan Vlan37 ipaddress 10.250.162.254 255.255.255.0
+enable ipforwarding vlan Vlan37
+configure vlan Vlan35 ipaddress 10.250.160.254 255.255.255.0
+enable ipforwarding vlan Vlan35
+configure vlan Vlan36 ipaddress 10.250.161.254 255.255.255.0
+enable ipforwarding vlan Vlan36
+
+-----
+int Vlan27
+shut
+int vlan121
+shut
+int vlan119
+shut
+int vlan6
+shut
+int vlan43
+shut
+
+
+configure vlan Vlan27 ipaddress 10.250.152.254 255.255.255.0
+enable ipforwarding vlan Vlan27
+configure vlan Vlan121 ipaddress 10.250.233.254 255.255.255.0
+enable ipforwarding vlan Vlan121
+configure vlan Vlan119 ipaddress 10.250.231.254 255.255.255.0
+enable ipforwarding vlan Vlan119
+configure vlan Vlan6 ipaddress 10.250.132.254 255.255.255.0
+enable ipforwarding vlan Vlan6
+configure vlan Vlan43 ipaddress 10.250.168.254 255.255.255.0
+enable ipforwarding vlan Vlan43

@@ -1,0 +1,24 @@
+#!/bin/bash
+for ((a=4043 ; a<=4094 ; a++)) 
+do 
+echo -n "
+interface bundle-ether 1.$a
+ description HOMENET VLAN $a
+ mtu 1600
+ ipv4 point-to-point
+ ipv4 unnumbered Loopback1
+ proxy-arp
+ arp learning disable
+ service-policy type control subscriber IPOE-POLICYMAP
+ ipsubscriber ipv4 l2-connected
+  initiator dhcp
+ !
+exit
+encapsulation ambiguous dot1q $a second-dot1q 2000-4094
+" 
+done
+#
+##
+##encapsulation ambiguous dot1q $a second-dot1q 4090
+##encapsulation dot1q $a second-dot1q 4090
+

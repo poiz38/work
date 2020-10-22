@@ -1,0 +1,271 @@
+configure vlan VLAN0077 ipaddress 10.250.77.254 255.255.255.0
+enable ipforwarding vlan VLAN0077
+enable bootprelay vlan VLAN0077
+configure bootprelay vlan VLAN0077 add 10.26.2.2
+int vlan77
+shutdown
+configure vlan VLAN0023 ipaddress 10.250.23.254 255.255.255.0
+enable ipforwarding vlan VLAN0023
+enable bootprelay vlan VLAN0023
+configure bootprelay vlan VLAN0023 add 10.26.2.2
+int vlan23
+shutdown
+configure vlan VLAN0088 ipaddress 10.250.88.254 255.255.255.0
+enable ipforwarding vlan VLAN0088
+enable bootprelay vlan VLAN0088
+configure bootprelay vlan VLAN0088 add 10.26.2.2
+int vlan88
+shutdown
+configure vlan VLAN0093 ipaddress 10.250.127.254 255.255.255.0
+enable ipforwarding vlan VLAN0093
+enable bootprelay vlan VLAN0093
+configure bootprelay vlan VLAN0093 add 10.26.2.2
+int vlan93
+shutdown
+configure vlan VLAN0022 ipaddress 10.250.22.254 255.255.255.0
+enable ipforwarding vlan VLAN0022
+enable bootprelay vlan VLAN0022
+configure bootprelay vlan VLAN0022 add 10.26.2.2
+int vlan22
+shutdown
+configure vlan VLAN0083 ipaddress 10.250.83.254 255.255.255.0
+enable ipforwarding vlan VLAN0083
+enable bootprelay vlan VLAN0083
+configure bootprelay vlan VLAN0083 add 10.26.2.2
+int vlan83
+shutdown
+configure vlan VLAN0068 ipaddress 10.250.68.254 255.255.255.0
+enable ipforwarding vlan VLAN0068
+enable bootprelay vlan VLAN0068
+configure bootprelay vlan VLAN0068 add 10.26.2.2
+int vlan68
+shutdown
+configure vlan VLAN0063 ipaddress 10.250.63.254 255.255.255.0
+configure vlan VLAN0063 add secondary-ipaddress 10.26.3.81 255.255.255.248
+enable ipforwarding vlan VLAN0063
+enable bootprelay vlan VLAN0063
+configure bootprelay vlan VLAN0063 add 10.26.2.2
+int vlan63
+shutdown
+configure vlan VLAN0095 ipaddress 10.250.105.254 255.255.255.0
+enable ipforwarding vlan VLAN0095
+enable bootprelay vlan VLAN0095
+configure bootprelay vlan VLAN0095 add 10.26.2.2
+int vlan95
+shutdown
+configure vlan VLAN0060 ipaddress 10.250.60.254 255.255.255.0
+enable ipforwarding vlan VLAN0060
+enable bootprelay vlan VLAN0060
+configure bootprelay vlan VLAN0060 add 10.26.2.2
+int vlan60
+shutdown
+configure vlan VLAN0200 ipaddress 10.250.104.254 255.255.255.0
+configure vlan VLAN0200 add secondary-ipaddress 10.26.3.137 255.255.255.248
+enable ipforwarding vlan VLAN0200
+enable bootprelay vlan VLAN0200
+configure bootprelay vlan VLAN0200 add 10.26.2.2
+int vlan200
+shutdown
+configure vlan VLAN0080 ipaddress 10.250.80.254 255.255.255.0
+enable ipforwarding vlan VLAN0080
+enable bootprelay vlan VLAN0080
+configure bootprelay vlan VLAN0080 add 10.26.2.2
+int vlan80
+shutdown
+configure vlan VLAN0042 ipaddress 10.250.42.254 255.255.255.0
+enable ipforwarding vlan VLAN0042
+enable bootprelay vlan VLAN0042
+configure bootprelay vlan VLAN0042 add 10.26.2.2
+int vlan42
+shutdown
+configure vlan VLAN0090 ipaddress 10.250.90.254 255.255.255.0
+configure vlan VLAN0090 add secondary-ipaddress 10.26.3.73 255.255.255.248
+enable ipforwarding vlan VLAN0090
+enable bootprelay vlan VLAN0090
+configure bootprelay vlan VLAN0090 add 10.26.2.2
+int vlan90
+shutdown
+configure vlan VLAN0082 ipaddress 10.250.82.254 255.255.255.0
+configure vlan VLAN0082 add secondary-ipaddress 10.26.3.145 255.255.255.240
+enable ipforwarding vlan VLAN0082
+enable bootprelay vlan VLAN0082
+configure bootprelay vlan VLAN0082 add 10.26.2.2
+int vlan82
+shutdown
+configure vlan VLAN0091 ipaddress 10.250.115.254 255.255.255.0
+enable ipforwarding vlan VLAN0091
+enable bootprelay vlan VLAN0091
+configure bootprelay vlan VLAN0091 add 10.26.2.2
+int vlan91
+shutdown
+configure vlan VLAN0069 ipaddress 10.250.69.254 255.255.255.0
+enable ipforwarding vlan VLAN0069
+enable bootprelay vlan VLAN0069
+configure bootprelay vlan VLAN0069 add 10.26.2.2
+int vlan69
+shutdown
+configure vlan VLAN0146 ipaddress 10.250.116.254 255.255.255.0
+enable ipforwarding vlan VLAN0146
+enable bootprelay vlan VLAN0146
+configure bootprelay vlan VLAN0146 add 10.26.2.2
+int vlan146
+shutdown
+configure vlan VLAN0066 ipaddress 10.250.66.254 255.255.255.0
+configure vlan VLAN0066 add secondary-ipaddress 10.26.3.129 255.255.255.248
+enable ipforwarding vlan VLAN0066
+enable bootprelay vlan VLAN0066
+configure bootprelay vlan VLAN0066 add 10.26.2.2
+int vlan66
+shutdown
+configure vlan VLAN0081 ipaddress 10.250.81.254 255.255.255.0
+enable ipforwarding vlan VLAN0081
+enable bootprelay vlan VLAN0081
+configure bootprelay vlan VLAN0081 add 10.26.2.2
+int vlan81
+shutdown
+configure vlan VLAN0078 ipaddress 10.250.78.254 255.255.255.0
+enable ipforwarding vlan VLAN0078
+enable bootprelay vlan VLAN0078
+configure bootprelay vlan VLAN0078 add 10.26.2.2
+int vlan78
+shutdown
+configure vlan VLAN0041 ipaddress 10.250.41.254 255.255.255.0
+enable ipforwarding vlan VLAN0041
+enable bootprelay vlan VLAN0041
+configure bootprelay vlan VLAN0041 add 10.26.2.2
+int vlan41
+shutdown
+configure vlan VLAN0076 ipaddress 10.250.76.254 255.255.255.0
+enable ipforwarding vlan VLAN0076
+enable bootprelay vlan VLAN0076
+configure bootprelay vlan VLAN0076 add 10.26.2.2
+int vlan76
+shutdown
+configure vlan VLAN0026 ipaddress 10.250.26.254 255.255.255.0
+enable ipforwarding vlan VLAN0026
+enable bootprelay vlan VLAN0026
+configure bootprelay vlan VLAN0026 add 10.26.2.2
+int vlan26
+shutdown
+configure vlan VLAN0065 ipaddress 10.250.65.254 255.255.255.0
+enable ipforwarding vlan VLAN0065
+enable bootprelay vlan VLAN0065
+configure bootprelay vlan VLAN0065 add 10.26.2.2
+int vlan65
+shutdown
+configure vlan VLAN0067 ipaddress 10.250.67.254 255.255.255.0
+enable ipforwarding vlan VLAN0067
+enable bootprelay vlan VLAN0067
+configure bootprelay vlan VLAN0067 add 10.26.2.2
+int vlan67
+shutdown
+configure vlan VLAN0024 ipaddress 10.250.24.254 255.255.255.0
+enable ipforwarding vlan VLAN0024
+enable bootprelay vlan VLAN0024
+configure bootprelay vlan VLAN0024 add 10.26.2.2
+int vlan24
+shutdown
+configure vlan VLAN0148 ipaddress 10.250.118.254 255.255.255.0
+enable ipforwarding vlan VLAN0148
+enable bootprelay vlan VLAN0148
+configure bootprelay vlan VLAN0148 add 10.26.2.2
+int vlan148
+shutdown
+configure vlan VLAN0150 ipaddress 10.250.120.254 255.255.255.0
+enable ipforwarding vlan VLAN0150
+enable bootprelay vlan VLAN0150
+configure bootprelay vlan VLAN0150 add 10.26.2.2
+int vlan150
+shutdown
+configure vlan VLAN0092 ipaddress 10.250.126.254 255.255.255.0
+enable ipforwarding vlan VLAN0092
+enable bootprelay vlan VLAN0092
+configure bootprelay vlan VLAN0092 add 10.26.2.2
+int vlan92
+shutdown
+configure vlan VLAN0075 ipaddress 10.250.75.254 255.255.255.0
+enable ipforwarding vlan VLAN0075
+enable bootprelay vlan VLAN0075
+configure bootprelay vlan VLAN0075 add 10.26.2.2
+int vlan75
+shutdown
+configure vlan VLAN0079 ipaddress 10.250.79.254 255.255.255.0
+enable ipforwarding vlan VLAN0079
+enable bootprelay vlan VLAN0079
+configure bootprelay vlan VLAN0079 add 10.26.2.2
+int vlan79
+shutdown
+configure vlan VLAN0021 ipaddress 10.250.21.254 255.255.255.0
+configure vlan VLAN0021 add secondary-ipaddress 10.26.3.241 255.255.255.240
+enable ipforwarding vlan VLAN0021
+enable bootprelay vlan VLAN0021
+configure bootprelay vlan VLAN0021 add 10.26.2.2
+int vlan21
+shutdown
+configure vlan VLAN0086 ipaddress 10.250.86.254 255.255.255.0
+enable ipforwarding vlan VLAN0086
+enable bootprelay vlan VLAN0086
+configure bootprelay vlan VLAN0086 add 10.26.2.2
+int vlan86
+shutdown
+configure vlan VLAN0094 ipaddress 10.250.121.254 255.255.255.0
+enable ipforwarding vlan VLAN0094
+enable bootprelay vlan VLAN0094
+configure bootprelay vlan VLAN0094 add 10.26.2.2
+int vlan94
+shutdown
+configure vlan VLAN0027 ipaddress 10.250.27.254 255.255.255.0
+enable ipforwarding vlan VLAN0027
+enable bootprelay vlan VLAN0027
+configure bootprelay vlan VLAN0027 add 10.26.2.2
+int vlan27
+shutdown
+configure vlan VLAN0010 ipaddress 10.250.10.254 255.255.255.0
+enable ipforwarding vlan VLAN0010
+enable bootprelay vlan VLAN0010
+configure bootprelay vlan VLAN0010 add 10.26.2.2
+int vlan10
+shutdown
+configure vlan VLAN0084 ipaddress 10.250.84.254 255.255.255.0
+enable ipforwarding vlan VLAN0084
+enable bootprelay vlan VLAN0084
+configure bootprelay vlan VLAN0084 add 10.26.2.2
+int vlan84
+shutdown
+configure vlan VLAN0149 ipaddress 10.250.119.254 255.255.255.0
+enable ipforwarding vlan VLAN0149
+enable bootprelay vlan VLAN0149
+configure bootprelay vlan VLAN0149 add 10.26.2.2
+int vlan149
+shutdown
+configure vlan VLAN0020 ipaddress 10.250.20.254 255.255.255.0
+configure vlan VLAN0020 add secondary-ipaddress 10.26.3.113 255.255.255.240
+enable ipforwarding vlan VLAN0020
+enable bootprelay vlan VLAN0020
+configure bootprelay vlan VLAN0020 add 10.26.2.2
+int vlan20
+shutdown
+configure vlan VLAN0087 ipaddress 10.250.87.254 255.255.255.0
+enable ipforwarding vlan VLAN0087
+enable bootprelay vlan VLAN0087
+configure bootprelay vlan VLAN0087 add 10.26.2.2
+int vlan87
+shutdown
+configure vlan VLAN0025 ipaddress 10.250.25.254 255.255.255.0
+enable ipforwarding vlan VLAN0025
+enable bootprelay vlan VLAN0025
+configure bootprelay vlan VLAN0025 add 10.26.2.2
+int vlan25
+shutdown
+configure vlan VLAN0147 ipaddress 10.250.117.254 255.255.255.0
+enable ipforwarding vlan VLAN0147
+enable bootprelay vlan VLAN0147
+configure bootprelay vlan VLAN0147 add 10.26.2.2
+int vlan147
+shutdown
+configure vlan VLAN0064 ipaddress 10.250.64.254 255.255.255.0
+enable ipforwarding vlan VLAN0064
+enable bootprelay vlan VLAN0064
+configure bootprelay vlan VLAN0064 add 10.26.2.2
+int vlan64
+shutdown

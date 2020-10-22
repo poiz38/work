@@ -1,0 +1,15 @@
+#!/bin/bash
+for ((a=1860 ; a<=1874 ; a++)) 
+do 
+echo -n "
+interface TenGigabitEthernet3/9.$a
+ encapsulation dot1Q $a
+ xconnect 213.248.0.20 $a encapsulation mpls
+"
+
+#echo -n "interface bundle-ether 1.4094$a l2transport
+#encapsulation dot1q 4094 second-dot1q $a
+#rewrite ingress tag pop 2 symmetric 
+ 
+done
+

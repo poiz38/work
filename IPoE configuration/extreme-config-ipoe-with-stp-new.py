@@ -15,17 +15,15 @@ args_dict = vars(args)
 vlan = args_dict["vlan"]
 port = args_dict["port"]
 bras = args_dict["xconn"]
-
+portlist = ','.join(str(port) for port in port)
 ## Create extreme config
 
 ## VLANS
-print(str(port))
-portlist = str(port)
-print(portlist)
 i = int(vlan[0])
 p1 = int(port[0])
 p2 = int(port[1])
 bras = bras[0]
+
 
 if bras == "10.0.96.22":
     pass
@@ -35,16 +33,22 @@ else:
     print("We dont have bras", bras)
     exit()
 
+p = 0
+
+
+
 while i <= int(vlan[1]):
+
+
+
     ### VLANS
     print("create vlan IPOE" + str(i))
     print("configure vlan IPOE" + str(i), "tag", str(i))
-    print("configure vlan IPOE" + str(i), "add ports", str(p1) + "," + str(p2), "tagged")
+    print("configure vlan IPOE" + str(i), "add ports", str(portlist), "tagged")
     ### STPD
     print("create stpd IPOE" + str(i))
     print("configure stpd IPOE" + str(i), "mode dot1w")
-    print("configure stpd IPOE" + str(i), "add vlan IPOE" + str(i), "ports", str(p1), "pvst-plus")
-    print("configure stpd IPOE" + str(i), "add vlan IPOE" + str(i), "ports", str(p2), "pvst-plus")
+    print("configure stpd IPOE" + str(i), "add vlan IPOE" + str(i), "ports", str(portlist), "pvst-plus")
     print("configure stpd IPOE" + str(i), "tag", str(i))
     print("enable stpd IPOE" + str(i))
     ### Disable igmp snooping

@@ -31,11 +31,16 @@ lp = int(lastport[0])
 tp = int(trunkport[0])
 
 while i >= int(vlan[0]) and p <= lp:
-    if p == int(trunkport[0]):
-        pass
-    elif p == int(trunkport[1]):
-        pass
-    else:
+    try:
+        if p == int(trunkport[0]):
+            pass
+        elif p == int(trunkport[1]):
+            pass
+        else:
+            print("create vlan v" + str(i) + " tag " + str(i))
+            print("config vlan v" + str(i) + " add tagged " + portlist)
+            print("config vlan v" + str(i) + " add untagged " + str(p))
+    except IndexError:
         print("create vlan v" + str(i) + " tag " + str(i))
         print("config vlan v" + str(i) + " add tagged " + portlist)
         print("config vlan v" + str(i) + " add untagged " + str(p))
